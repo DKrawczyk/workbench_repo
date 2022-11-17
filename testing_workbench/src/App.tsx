@@ -1,11 +1,10 @@
 import React from 'react'
-
-import './App.css'
+import { MainPage } from '~components/MainPage'
 
 export const App = () => {
 	return (
 		<div className="App">
-			<p>45</p>
+			<MainPage />
 		</div>
 	)
 }
